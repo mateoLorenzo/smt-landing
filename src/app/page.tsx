@@ -1,62 +1,24 @@
 import Header from "./components/Header";
+import { Home } from "./sections/Home";
+import { WhatWeDo } from "./sections/WhatWeDo";
+import { HowWeWork } from "./sections/HowWeWork";
+import { ProductsAndPlatforms } from "./sections/ProductsAndPlatforms";
+import { OurVision } from "./sections/OurVision";
+import { LetsBuild } from "./sections/LetsBuild";
+import { ContactUs } from "./sections/ContactUs";
 
-export default function Home() {
+export default function Page() {
   return (
     <>
       <Header />
       <div className="w-full min-h-screen">
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-white"
-          id="home"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">Home</h1>
-        </section>
-
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-[#f5f5f5]"
-          id="what-we-do"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">What we do</h1>
-        </section>
-
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-white"
-          id="how-we-work"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">How we work</h1>
-        </section>
-
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-[#f5f5f5]"
-          id="products-platforms"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">
-            Products & Platforms
-          </h1>
-        </section>
-
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-white"
-          id="our-vision"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">Our vision</h1>
-        </section>
-
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-[#f5f5f5]"
-          id="lets-build"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">
-            Lets build something real
-          </h1>
-        </section>
-
-        <section
-          className="h-screen flex items-center justify-center snap-start bg-white"
-          id="contact"
-        >
-          <h1 className="text-5xl font-semibold text-[#0a3041]">Contact us</h1>
-        </section>
+        <Home />
+        <WhatWeDo />
+        <HowWeWork />
+        <ProductsAndPlatforms />
+        <OurVision />
+        <LetsBuild />
+        <ContactUs />
       </div>
     </>
   );
