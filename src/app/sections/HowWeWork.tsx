@@ -6,19 +6,20 @@ export const HowWeWork = () => {
       className="relative min-h-screen flex items-center justify-center snap-start bg-white pt-5 pb-20"
       id="how-we-work"
     >
-      <div className="max-w-[1500px] mx-auto px-6 w-full">
+      <div className="max-w-[1500px] mx-auto px-[100px] w-full">
         {/* Header */}
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-wider text-[#38777C] mb-4 font-medium">
+          <p className="text-sm uppercase text-[#38777C] mb-4 font-medium">
             HOW WE WORK
           </p>
-          <h2 className="text-5xl md:text-5xl font-normal text-[#0a3041] tracking-[-4px]">
+          <h2 className="text-4xl md:text-4xl font-normal text-[#0a3041] tracking-[-3px]">
             Professionalism from scratch
           </h2>
         </div>
 
         {/* Grid of cards */}
-        <div className="grid md:grid-cols-2 gap-6 max-w-[1200px] mx-auto">
+        {/* <div className="grid md:grid-cols-2 gap-6 max-w-[1200px] mx-auto"> */}
+        <div className="grid md:grid-cols-2 gap-6 max-w-[1200px]">
           {/* Card 1 - Think before we build */}
           <div className="bg-[#F5F9FA] rounded-3xl p-10 flex flex-col justify-center">
             <h3 className="text-3xl font-medium text-[#0a3041] mb-4 tracking-[-2px]">

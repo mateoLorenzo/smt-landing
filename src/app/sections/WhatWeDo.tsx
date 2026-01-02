@@ -12,7 +12,7 @@ export const WhatWeDo = () => {
       <div className="relative z-10 w-full max-w-[1500px] mx-[4vw] bg-white rounded-[32px] shadow-2xl py-[10vh] md:px-[100px] md:py-[10vh]">
         {/* Header section */}
         <div className="mb-16">
-          <p className="text-sm uppercase tracking-wider text-[#38777C] mb-4 font-medium">
+          <p className="text-sm uppercase text-[#38777C] mb-4 font-medium">
             WHAT WE DO
           </p>
           {/* <div className="grid md:grid-cols-2 gap-8"> */}
