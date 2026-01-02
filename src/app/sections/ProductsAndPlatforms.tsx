@@ -35,7 +35,7 @@ export const ProductsAndPlatforms = () => {
           <p className="text-sm uppercase text-[#5A9B93] mb-4 font-medium">
             PRODUCTS & PLATFORMS
           </p>
-          <h2 className="text-4xl md:text-4xl font-normal text-white mb-6 tracking-[-3px]">
+          <h2 className="text-4xl md:text-4.5xl font-normal text-white mb-6 tracking-[-3px]">
             Real products, built and shipped
           </h2>
           <p className="text-[#B8CDD4] font-light text-lg max-w-3xl leading-relaxed">
