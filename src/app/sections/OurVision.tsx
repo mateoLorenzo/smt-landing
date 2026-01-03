@@ -3,7 +3,7 @@ import React from "react";
 export const OurVision = () => {
   return (
     <section
-      className="min-h-screen flex items-center justify-center snap-start bg-white py-20"
+      className="min-h-screen flex items-center justify-center bg-white py-20"
       id="our-vision"
     >
       <div className="max-w-[1200px] mx-auto px-6 w-full">

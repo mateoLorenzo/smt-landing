@@ -26,7 +26,7 @@ export const ProductsAndPlatforms = () => {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center snap-start bg-[#0a3041] py-20"
+      className="relative min-h-screen flex items-center justify-center bg-[#0a3041] py-20"
       id="products-platforms"
     >
       <div className="max-w-[1500px] mx-auto px-[120px] w-full">

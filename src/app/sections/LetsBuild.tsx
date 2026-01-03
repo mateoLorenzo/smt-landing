@@ -3,8 +3,7 @@ import React from "react";
 export const LetsBuild = () => {
   return (
     <section
-      // className="min-h-screen flex items-center justify-center snap-start bg-[#0a3041] py-20"
-      className="relative w-[95%] mx-auto rounded-2xl flex items-center justify-center snap-start bg-[#0a3041] py-10"
+      className="relative w-[95%] mx-auto rounded-2xl flex items-center justify-center bg-[#0a3041] py-10"
       id="lets-build"
     >
       <div className="max-w-[1500px] mx-auto px-[120px] w-full">

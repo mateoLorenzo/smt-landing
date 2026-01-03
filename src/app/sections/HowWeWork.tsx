@@ -3,7 +3,7 @@ import React from "react";
 export const HowWeWork = () => {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center snap-start bg-white pt-5 pb-20"
+      className="relative min-h-screen flex items-center justify-center bg-white pt-5 pb-20"
       id="how-we-work"
     >
       <div className="max-w-[1500px] mx-auto px-[100px] w-full">

@@ -3,7 +3,7 @@ import React from "react";
 export const Home = () => {
   return (
     <section
-      className="relative h-screen flex flex-col items-center justify-center snap-start bg-[#F5F9FA] overflow-visible px-6"
+      className="relative h-screen flex flex-col items-center justify-center bg-[#F5F9FA] overflow-visible px-6"
       id="home"
     >
       {/* Content */}
