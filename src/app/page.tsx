@@ -6,6 +6,7 @@ import { ProductsAndPlatforms } from "./sections/ProductsAndPlatforms";
 import { OurVision } from "./sections/OurVision";
 import { LetsBuild } from "./sections/LetsBuild";
 import { ContactUs } from "./sections/ContactUs";
+import { Footer } from "./components/Footer";
 
 export default function Page() {
   return (
@@ -19,6 +20,7 @@ export default function Page() {
         <OurVision />
         <LetsBuild />
         <ContactUs />
+        <Footer />
       </div>
     </>
   );

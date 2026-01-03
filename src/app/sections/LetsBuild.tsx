@@ -14,7 +14,7 @@ export const LetsBuild = () => {
             <p className="text-sm uppercase text-[#38777C] mb-6 font-medium">
               LET&apos;S BUILD SOMETHING REAL
             </p>
-            <h2 className="text-5xl md:text-4xl font-normal text-white mb-8 tracking-[-3px] leading-tight">
+            <h2 className="text-5xl md:text-4xl font-normal text-white mb-8 tracking-[-2px] leading-tight">
               Have an idea or a product <br /> worth building?
             </h2>
             <p className="text-[#8FA1A8] text-lg leading-relaxed">

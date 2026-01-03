@@ -41,19 +41,19 @@ export const ContactUs = () => {
             />
           </div>
 
-          {/* Last Name */}
+          {/* Email */}
           <div className="space-y-3">
             <Label
-              htmlFor="lastName"
+              htmlFor="email"
               className="text-[#0a3041] text-base font-normal"
             >
-              Your last name
+              Your email
             </Label>
             <Input
-              type="text"
-              id="lastName"
-              name="lastName"
-              placeholder="Enter your last name"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
               className="h-12 px-4 text-sm rounded-lg border-gray-200 focus-visible:ring-[#38777C]"
             />
           </div>
@@ -71,7 +71,7 @@ export const ContactUs = () => {
               name="message"
               rows={6}
               placeholder="Tell us about what you want to build"
-              className="px-4 py-3 text-sm rounded-lg border-gray-200 resize-none focus-visible:ring-[#38777C]"
+              className="px-4 py-3 text-sm rounded-lg min-h-[120px] border-gray-200 resize-none focus-visible:ring-[#38777C]"
             />
           </div>
 

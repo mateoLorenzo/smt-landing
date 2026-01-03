@@ -12,7 +12,7 @@ export const HowWeWork = () => {
           <p className="text-sm uppercase text-[#38777C] mb-4 font-medium">
             HOW WE WORK
           </p>
-          <h2 className="text-4xl md:text-4xl font-normal text-[#0a3041] tracking-[-3px]">
+          <h2 className="text-5xl md:text-4.2xl font-normal text-[#0a3041] tracking-[-3px]">
             Professionalism from scratch
           </h2>
         </div>
