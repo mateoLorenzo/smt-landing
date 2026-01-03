@@ -10,9 +10,9 @@ export const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">SM Technologies</h3>
             <p className="text-[#B8CDD4] text-sm leading-relaxed mb-6 max-w-sm">
-              Empowering you to take control of your finances - whether
-              it&apos;s budgeting saving, or investing. We provide the tools you
-              need to make smarter, more confident financial decisions
+              We help businesses design and build digital products that solve
+              real problems and support long-term growth. From strategy and
+              design to development and delivery.
             </p>
             <a
               href="https://wa.me/5491140392404"
