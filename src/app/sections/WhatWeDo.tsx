@@ -3,7 +3,7 @@ import Image from "next/image";
 export const WhatWeDo = () => {
   return (
     <section
-      className="relative min-h-screen flex items-start justify-center -mt-[10vh] "
+      className="relative min-h-[80vh] flex items-start justify-center -mt-[10vh] "
       id="what-we-do"
     >
       <div className="w-full h-[300px] bg-[#F5F9FA] absolute" />
