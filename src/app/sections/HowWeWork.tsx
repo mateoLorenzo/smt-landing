@@ -46,16 +46,16 @@ export const HowWeWork = () => {
 
         {/* Card 3 - Solid foundations with chart - Full width */}
         <div className="md:col-span-2 mt-4 bg-[#F5F9FA] rounded-xl md:rounded-3xl p-10 ">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
+          <div className="flex flex-col md:flex-row gap-8 items-center justify-between">
             {/* Left side - Text content */}
-            <div>
+            <div className="flex-1">
               <h3 className="text-center md:text-start text-xl md:text-3xl tracking-[-1px] font-medium text-[#0a3041] mb-4 md:tracking-[-2px]">
                 Solid foundations, real outcomes
               </h3>
               <p className="text-center md:text-start text-sm md:text-[16px] text-[#666666] leading-relaxed mb-6">
                 We don&apos;t chase quick wins.
               </p>
-              <p className="text-[#666666] leading-relaxed text-sm md:text-[16px] text-center md:text-start">
+              <p className="text-[#666666] mb-5 leading-relaxed text-sm md:text-[16px] text-center md:text-start max-w-[500px]">
                 We focus on clear design and solid foundations that work today,
                 creating reliable products that deliver value today and remain
                 flexible as your business grows.
@@ -63,7 +63,7 @@ export const HowWeWork = () => {
             </div>
 
             {/* Right side - Chart */}
-            <div>
+            <div className="flex-1 md:w-[50%] pl-5">
               <div className="bg-white rounded-2xl p-6 shadow-sm">
                 {/* Chart header */}
                 <div className="flex justify-between items-center mb-6">
