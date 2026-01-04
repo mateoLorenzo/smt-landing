@@ -13,11 +13,11 @@ export const ContactUs = () => {
     >
       <div className="max-w-[700px] mx-auto px-6 w-full">
         {/* Header */}
-        <div className="text-center mb-12">
-          <p className="text-sm uppercase text-[#38777C] mb-4 font-medium">
+        <div className="text-center mb-8 md:mb-12">
+          <p className="text-xs md:text-sm uppercase text-[#38777C] mb-4 font-medium">
             CONTACT US
           </p>
-          <h2 className="text-5xl md:text-4xl font-normal text-[#0a3041] tracking-[-2px]">
+          <h2 className="text-2xl tracking-[-1px] md:text-4xl font-normal text-[#0a3041] md:tracking-[-2px]">
             Let&apos;s create the future
           </h2>
         </div>
@@ -25,7 +25,7 @@ export const ContactUs = () => {
         {/* Contact Form */}
         <form className="space-y-8">
           {/* First Name */}
-          <div className="space-y-3">
+          <div className="space-y-2 md:space-y-3">
             <Label
               htmlFor="firstName"
               className="text-[#0a3041] text-base font-normal"
@@ -42,7 +42,7 @@ export const ContactUs = () => {
           </div>
 
           {/* Email */}
-          <div className="space-y-3">
+          <div className="space-y-2 md:space-y-3">
             <Label
               htmlFor="email"
               className="text-[#0a3041] text-base font-normal"
@@ -59,7 +59,7 @@ export const ContactUs = () => {
           </div>
 
           {/* Message */}
-          <div className="space-y-3">
+          <div className="space-y-2 md:space-y-3">
             <Label
               htmlFor="message"
               className="text-[#0a3041] text-base font-normal"
