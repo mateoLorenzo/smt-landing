@@ -5,22 +5,32 @@ export const ProductsAndPlatforms = () => {
     {
       title: "Cutmakers",
       description:
-        "Corporate landing page for an energy-focused company, designed to clearly communicate services, positioning, and technical capabilities.",
+        "End-to-end SaaS platform for barbershops, built to streamline online bookings, client management, and the business's digital operations.B",
+      link: "https://cutmakers.com",
     },
     {
       title: "WebCar",
       description:
         "Digital platform for an automotive business, designed to showcase vehicles, and centralize the dealership's online presence.",
+      link: "https://webcar.com.ar",
+    },
+    {
+      title: "Agristar",
+      description:
+        "Corporate website for an agri-industrial company, designed to clearly present products and services while reinforcing brand credibility and technical positioning.",
+      link: "https://agristar.com.ar",
     },
     {
       title: "GeoWirePlus",
       description:
         "Marketing and corporate website built to support an industrial energy solution, focused on clarity, trust, and technical credibility.",
+      link: "https://geowireplus.com",
     },
     {
-      title: "ConnectHub",
+      title: "Comahue",
       description:
         "End-to-end web platform for business networking, including onboarding flows, profile management, and digital presence.",
+      link: "https://comahue-energy.com/",
     },
   ];
 
@@ -66,7 +76,13 @@ export const ProductsAndPlatforms = () => {
                   </p>
                 </div>
                 <button className="text-white text-sm md:text-base font-normal hover:text-[#5A9B93] transition-colors duration-200 text-left cursor-pointer">
-                  View product →
+                  <a
+                    href={product.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    View product →
+                  </a>
                 </button>
               </div>
             ))}
