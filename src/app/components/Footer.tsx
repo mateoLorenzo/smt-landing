@@ -3,13 +3,13 @@ import React from "react";
 export const Footer = () => {
   return (
     <footer className="bg-[#0a3041] text-white py-16">
-      <div className="max-w-[1400px] mx-auto px-[120px]">
+      <div className="max-w-[1400px] mx-auto px-5 md:px-[120px]">
         {/* Main footer content */}
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           {/* Column 1 - Company Info */}
-          <div>
+          <div className="flex flex-col items-center md:items-start">
             <h3 className="text-xl font-semibold mb-4">SM Technologies</h3>
-            <p className="text-[#B8CDD4] text-sm leading-relaxed mb-6 max-w-sm">
+            <p className="text-[#B8CDD4] text-center md:text-start text-sm leading-relaxed mb-6 max-w-sm">
               We help businesses design and build digital products that solve
               real problems and support long-term growth. From strategy and
               design to development and delivery.
@@ -38,37 +38,39 @@ export const Footer = () => {
           </div>
 
           {/* Column 2 - Sections */}
-          <div>
-            <h4 className="text-base font-semibold mb-6">Sections</h4>
+          <div className="flex flex-col items-center md:items-end ">
+            <h4 className="text-base font-semibold mb-6 min-w-[120px] text-center md:text-start">
+              Sections
+            </h4>
             <ul className="space-y-3">
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#what-we-do"
-                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
+                  className="text-[#B8CDD4] w-full text-sm hover:text-white transition-colors"
                 >
                   What we do
                 </a>
               </li>
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#how-we-work"
-                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
+                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors text-center md:text-start"
                 >
                   How we work
                 </a>
               </li>
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#products-platforms"
-                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
+                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors text-center md:text-start"
                 >
                   Our products
                 </a>
               </li>
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#our-vision"
-                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
+                  className="text-[#B8CDD4] text-sm hover:text-white transition-colors text-center md:text-start"
                 >
                   Our vision
                 </a>
@@ -77,10 +79,12 @@ export const Footer = () => {
           </div>
 
           {/* Column 3 - Products */}
-          <div>
-            <h4 className="text-base font-semibold mb-6">Products</h4>
+          <div className="hidden md:flex flex-col items-center md:items-end ">
+            <h4 className="text-base font-semibold mb-6 min-w-[120px]">
+              Products
+            </h4>
             <ul className="space-y-3">
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#"
                   className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
@@ -88,7 +92,7 @@ export const Footer = () => {
                   Cutmakers
                 </a>
               </li>
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#"
                   className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
@@ -96,7 +100,7 @@ export const Footer = () => {
                   Webcar
                 </a>
               </li>
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#"
                   className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
@@ -104,7 +108,7 @@ export const Footer = () => {
                   GeoWirePlus
                 </a>
               </li>
-              <li>
+              <li className="w-full text-center md:text-start min-w-[120px]">
                 <a
                   href="#"
                   className="text-[#B8CDD4] text-sm hover:text-white transition-colors"
