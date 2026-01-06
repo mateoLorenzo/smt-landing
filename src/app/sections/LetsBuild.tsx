@@ -8,7 +8,8 @@ export const LetsBuild = () => {
     >
       <div className="max-w-[1500px] mx-auto px-5 md:px-[120px] w-full">
         {/* <div className="grid md:grid-cols-2 gap-16 items-center"> */}
-        <div className="flex flex-col md:flex-row items-center">
+        {/* <div className="flex flex-col md:flex-row items-center md:justify-between overflow-hidden"> */}
+        <div className="flex flex-col md:flex-row items-center md:justify-between">
           {/* Left side - Text content */}
           <div className="md:pr-8 flex flex-col items-center md:items-start mb-10 md:mb-0">
             <p className="text-xs md:text-sm uppercase text-[#38777C] mb-3 md:mb-6 font-medium">
@@ -23,45 +24,26 @@ export const LetsBuild = () => {
             </p>
           </div>
 
-          {/* Right side - Project mockups grid */}
-          <div className="relative">
-            {/* Grid of mockup placeholders */}
-            <div className="grid grid-cols-2 gap-4">
-              {/* Row 1 */}
-              <div className="bg-[#153B4B] rounded-2xl aspect-[3/2] overflow-hidden">
-                <div className="w-full h-full bg-linear-to-br from-[#1a4a5c] to-[#0d2833] flex items-center justify-center">
-                  <span className="text-[#5A9B93] text-sm">Project 1</span>
-                </div>
-              </div>
-              <div className="bg-[#153B4B] rounded-2xl aspect-[3/2] overflow-hidden">
-                <div className="w-full h-full bg-linear-to-br from-[#1a4a5c] to-[#0d2833] flex items-center justify-center">
-                  <span className="text-[#5A9B93] text-sm">Project 2</span>
-                </div>
-              </div>
+          {/* <div className="flex w-[500px] flex-wrap justify-center gap-[10px] bottom-[10%] h-full absolute right-[120px] bg-red-500"> */}
 
-              {/* Row 2 */}
-              <div className="bg-[#153B4B] rounded-2xl aspect-[3/2] overflow-hidden">
-                <div className="w-full h-full bg-linear-to-br from-[#1a4a5c] to-[#0d2833] flex items-center justify-center">
-                  <span className="text-[#5A9B93] text-sm">Project 3</span>
-                </div>
-              </div>
-              <div className="bg-[#153B4B] rounded-2xl aspect-[3/2] overflow-hidden">
-                <div className="w-full h-full bg-linear-to-br from-[#1a4a5c] to-[#0d2833] flex items-center justify-center">
-                  <span className="text-[#5A9B93] text-sm">Project 4</span>
-                </div>
-              </div>
-
-              {/* Row 3 */}
-              {/* <div className="bg-[#153B4B] rounded-2xl aspect-[4/3] overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-[#1a4a5c] to-[#0d2833] flex items-center justify-center">
-                  <span className="text-[#5A9B93] text-sm">Project 5</span>
-                </div>
-              </div>
-              <div className="bg-[#153B4B] rounded-2xl aspect-[4/3] overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-[#1a4a5c] to-[#0d2833] flex items-center justify-center">
-                  <span className="text-[#5A9B93] text-sm">Project 6</span>
-                </div>
-              </div> */}
+          <div className="flex w-[500px] flex-wrap justify-center gap-[10px] padding-t-[10%] h-full absolute right-[120px] overflow-hidden">
+            <div className="flex items-center justify-center w-[45%] h-[40%] bg-white rounded-xl shadow-2xl">
+              Box 1
+            </div>
+            <div className="flex items-center justify-center w-[45%] h-[40%] bg-white rounded-xl shadow-2xl">
+              Box 2
+            </div>
+            <div className="flex items-center justify-center w-[45%] h-[40%] bg-white rounded-xl shadow-2xl">
+              Box 3
+            </div>
+            <div className="flex items-center justify-center w-[45%] h-[40%] bg-white rounded-xl shadow-2xl">
+              Box 4
+            </div>
+            <div className="flex items-center justify-center w-[45%] h-[40%] bg-white rounded-xl shadow-2xl">
+              Box 5
+            </div>
+            <div className="flex items-center justify-center w-[45%] h-[40%] bg-white rounded-xl shadow-2xl">
+              Box 6
             </div>
           </div>
         </div>
